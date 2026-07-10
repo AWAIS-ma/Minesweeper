@@ -12,8 +12,8 @@ interface Cell {
 @Component({
   selector: 'app-game',
   imports: [CommonModule, FormsModule],
-  templateUrl: './game.html',
-  styleUrl: './game.css',
+  templateUrl: './app.html',
+  styleUrl: './app.css',
 })
 export class Game implements OnDestroy {
   // Game Configuration presets
